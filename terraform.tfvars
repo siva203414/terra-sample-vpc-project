@@ -1,0 +1,7 @@
+instance_ami       = "ami-0d5beb611c244cba5"
+instance_type      = "t3.micro"
+vpc_cidr           = "192.168.0.0/16"
+subnet1_cidr       = "192.168.1.0/24"
+subnet2_cidr       = "192.168.2.0/24"
+availability_zone1 = "ap-south-1a"
+availability_zone2 = "ap-south-1b"
