@@ -1,0 +1,14 @@
+region                     = "ap-south-1"
+db_engine                  = "postgres"
+db_instance_class          = "db.t3.micro"
+db_instance_name           = "DBinstance"
+db_engine_version          = "18.3"
+db_engine_pggroup          = "18"
+db_username                = "siva"
+db_password                = "root123456"
+allocate_storage           = 20
+vpc_id                     = "vpc-0a47f6cd8f7d8b00e"
+subnet_ids                 = ["subnet-08e4a9c29551eefa2", "subnet-0073990443618c2a9"]
+db_backup_retention_period = 0
+db_backup_window           = "03:00-04:00"
+db_maintenence_period      = "sun:05:00-sun:06:00"
